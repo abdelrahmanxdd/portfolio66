@@ -1,0 +1,928 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* start header */
+
+header{
+    background-image: url(images/header.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: rgba(0, 0, 0);
+    padding-top: 20px;
+    position: relative;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    z-index: 10;
+    position: relative;
+}
+
+.container .nav-links{
+    float: right;
+
+}
+
+.container .nav-links a{
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.83);
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    transition: 1s all;
+}
+
+.container .nav-links a:hover{
+    color: #FF305B;
+}
+
+.container .logo{
+    float: left;
+} 
+
+.container .logo a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    color: #FF305B;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25px;
+    font-family: "Roboto", sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+header .title{
+    text-align: center;
+    padding-top:  350px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    z-index: 10;
+    position: relative;
+}
+
+header .title h3{
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+
+header .title h1{
+    font-weight: 630;
+    font-size: 70px;
+    color: #FF305B;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+header .title h4{
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+}
+
+.background{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+/* end header */
+
+
+
+/* About */
+
+section{
+    padding: 100px 0;
+}
+
+section .img-profile{
+    float: left;
+    width: 32%;
+    margin-left: 8%;
+}
+
+section  .profile-desc{
+    float: left;
+    width: 60%;
+    padding-left: 100px;
+}
+
+.clear{
+    clear: both;
+}
+
+section .div-border{
+    border: 8px solid rgb(85, 85, 85);
+    width: 360px;
+    height: 440px;
+    border-radius: 10px;
+}
+
+section .profile-photo{
+    width: 360px;
+    height: 440px;
+    position: relative;
+    top: 17px;
+    left: 17px;
+}
+
+.profile-photo div{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 0;
+    background-color: rgb(0, 0, 0 , 0.6);
+    transition: 0.5s all;
+    border-radius: 10px;
+}
+
+
+.profile-photo div a{
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-right: 17px;
+    font-size: 17px;
+    color: transparent;
+}
+
+.profile-photo div:hover a{
+    margin: 55% 10px;
+    color: white;
+}
+
+.profile-photo div a:hover{
+    color: #FF305B;
+}
+
+
+.profile-photo:hover div{
+    height: 100%;
+}
+
+
+section .profile-photo img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.profile-desc h2{
+    color: rgb(51, 51, 51);
+    font-size: 34px;
+    font-weight: 600;
+    font-family: "Source Sans 3", sans-serif;
+    position: relative;
+    line-height: 22px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.profile-desc h2::after{
+    content: "";
+    background-color: #FF305B;
+    width: 4px;
+    height: 100%;
+    left: 0;
+    top: -1px;
+    position: absolute;
+}
+
+.profile-desc .p-desc{
+    color: rgb(85, 85, 85);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    border-bottom: 1px dashed #999999;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    /* width: 85%; */
+    line-height: 25px;
+}
+
+.profile-info{
+    width: 90%;
+}
+
+.profile-info .info{
+    float: left;
+    width: 50%;
+    margin-bottom: 25px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(126, 126, 126);
+}
+
+.profile-info .info span{
+    color: rgb(51, 51, 51)   ;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.buttons .btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: #FF305B;
+    padding: 13px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+
+
+.buttons .btn:hover{
+    background-color:#EC2403 ;
+}
+
+#Services{
+    background-color: #F1F1F1;
+}
+
+.container .head-title{
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 800;
+}
+
+
+.container  .lines{
+    width: 80px;
+    height: 12px;
+    margin: auto;
+    border-bottom: 1px solid #FF305B;
+    border-top: 1px solid #FF305B;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+
+.container  .lines::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 160px;
+    background-color: #FF305B;
+    top: 50%;
+    left: -40px;
+}
+
+
+.services-cards .card{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 40px 15px;
+    transition: 0.5s all;
+}
+
+.services-cards .card .icon{
+    color: rgb(255, 48, 91);
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    transition: 0.5s all;
+}
+
+.services-cards .card:hover{
+    box-shadow: 0 15px 20px  rgb(0,0,0,0.1);
+    background-color: white;
+}
+
+.services-cards .card:hover .icon{
+    scale: 1.2 1.2;
+}
+
+
+.services-cards .card h3{
+    font-size: 24px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+    margin-bottom: 12px;
+}
+
+.services-cards .card p{
+    color: rgb(85, 85, 85);
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+
+
+
+.prf-cards .card{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.prf-cards .card img{
+    width: 100%;
+    height: 100%;
+}
+
+.prf-cards .card a{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+
+}
+
+.prf-cards .card a::after{
+    content: "";
+    position: absolute;
+    background-color:transparent;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: 1s all;
+}
+
+.prf-cards .card a .icon{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    z-index: 1;
+    color: transparent;
+    font-size: 25px;
+    font-weight: 400;
+    /* font family */
+}
+
+.prf-cards .card  a:hover::after {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.prf-cards .card a:hover .icon{
+    color:#FF305B;
+}
+
+
+
+#statics-sec{
+    background-color: #F1F1F1;
+}
+
+.static-card{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.static-card div{
+    color: rgb(255, 48, 91);
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.static-card h3{
+    color: rgb(51, 51, 51);
+    font-size: 26px;
+    font-weight: 800;
+    font-family: "Source Sans 3", sans-serif;
+    margin-bottom: 5px;
+}
+
+.static-card h5{
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+
+.feedback-card{
+    width: 65%;
+    margin: auto;
+    background-color:#F1F1F1 ;
+    padding: 40px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px;
+}
+
+.feedback-card .card1{
+    width: 20%;
+    float: left;
+
+}
+
+.feedback-card .card2{
+    width: 75%;
+    float: left;
+}
+
+.feedback-card .card2 h3{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Source Sans 3", sans-serif;
+    color:  rgb(51, 51, 51);
+    margin-bottom: 7px;
+}
+
+.feedback-card .card2 h4{
+    color: rgb(119, 119, 119);
+    font-weight: 600;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.feedback-card .card2 p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(85, 85, 85) ;
+    font-style: italic;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+
+.feedback-card .card2 .icons-star{
+    color:rgb(241, 195, 13) ;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.card1 .con-img{
+    width: 110px;
+    z-index: 99;
+    position: relative;
+    margin-top: 10px;
+}
+
+.card1 .con-img img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+
+.feedback-card::before{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 90px solid #FF305B ;
+    border-bottom:90px solid transparent ;
+    border-top: 90px solid #FF305B;
+    border-right: 90px solid transparent;
+    top: 0;
+    left: 0;
+}
+
+
+
+#Blog{
+    background-color: #F1F1F1;
+}
+
+.blog-cards .outer-card{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.blog-cards .inner-card{
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+
+.inner-card .blog-content{
+    padding: 20px;
+}
+
+.blog-cards .inner-card img{
+    width: 100%;
+}
+
+.blog-cards .inner-card .img-blog{
+    width: 100%;
+    height: 200px;
+}
+
+.blog-cards .inner-card .img-blog iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.blog-cards .inner-card div{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+    margin-bottom: 10px;
+}
+
+.blog-cards .inner-card h3 a{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Source Sans 3", sans-serif;
+    text-decoration: none;
+    color: #333333;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    transition: 0.5s all;
+}
+
+
+.blog-cards .inner-card  h3:hover{
+    color:rgb(255, 48, 91);
+}
+
+.blog-cards .inner-card  p{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+    margin-bottom: 20px;
+}
+
+
+.blog-cards .inner-card .blog-content .link a {
+    color: #333333;
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+
+.inner-card h3  a:hover{
+    color: rgb(255, 48, 91);
+}
+
+.inner-card  .blog-content .link a:hover{
+    color: rgb(255, 48, 91);
+}
+
+form{
+    width: 75%;
+    margin: auto;
+}
+
+form input{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0 , 0.8);
+}
+
+form .names{
+    padding-bottom: 25px;
+}
+
+form .names input{
+    padding: 10px;
+    border-radius: 5px;
+    border: #CCCCCC 1px solid;
+    height: 40px;
+    outline: 0;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+form .names #Name{ 
+    float: left;
+    width: 48%;
+}
+
+form .names #Email{ 
+    float: right;
+    width: 48%;
+}
+
+
+.subject{
+    padding-bottom: 25px;
+}
+
+.subject input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: #CCCCCC 1px solid;
+    height: 40px;
+    outline: 0;
+}
+
+.message{
+    padding-bottom: 25px;
+}
+
+.message textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    height: 100px;
+    border: #CCCCCC 1px solid;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0 , 0.8);
+    outline: 0;
+}
+
+
+form input:focus, textarea:focus{
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+    border-color: #ff305b;
+}
+
+
+form button{
+    padding: 12.5px 19px;
+    background-color: #FF305B;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #EC2403;
+}
+
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #333333;
+    text-align: center;
+}
+
+footer{
+    overflow: auto;
+}
+
+footer div{
+    margin-top: 40px;
+    margin-bottom: 9px;
+}
+
+footer div a{
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+footer div a:hover{
+    color: #FF305B;
+}
+
+
+footer p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+footer p a{
+    color: #FF305B;
+    text-decoration: none;
+
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+
+    .container .logo{
+        float: none;
+        width: 100%;
+        margin: 10px 0 10px 100px;
+    }
+
+    .container .nav-links{
+        float: none;
+        text-align: center;
+    }
+
+    .container .nav-links a{
+        display: block;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 15px 0;
+    }
+
+    header .title{
+        padding-top: 100px;
+    }
+
+
+    section .img-profile{
+        float:none;
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+    section .div-border{
+        margin: auto;
+    }
+
+    section  .profile-desc{
+        float: none;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .profile-desc .p-desc{
+        width: 90%;
+    }
+
+    .profile-info{
+        width: 85%;
+    }
+
+    .buttons{
+        margin-top: 20px;
+    }
+
+    .services-cards .card{
+        float: none;
+        width: 80%;
+        margin: auto;
+    }
+
+    .services-cards .card p{
+        width: 80%;
+        margin: auto;
+    }
+
+    .prf-cards .card{
+        float: none;
+        width: 80%;
+        margin: auto;
+    }
+
+    .static-card{
+        float: none;
+        width: 80%;
+        margin: 0 auto  50px auto;
+    }
+
+    .feedback-card{
+        width: 90%;
+    }
+
+    .blog-cards .outer-card{
+        float: none;
+        width: 90%;
+        margin: auto;
+    }
+
+    form {
+        width: 80%;
+    }
+        
+    form .names #Name{
+        float: none;
+        width: 100%;
+        margin-bottom: 25px;
+    }   
+
+    form .names #Email{
+        float: none;
+        width: 100%;
+    }   
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .container{
+        width: 90%;
+    }
+
+    .container .nav-links a{
+       padding: 7px;
+    }
+
+    section .img-profile{
+        float:none;
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+    section .div-border{
+        margin: auto;
+    }
+
+    section  .profile-desc{
+        float: none;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .profile-desc .p-desc{
+        width: 90%;
+    }
+
+    .profile-info{
+        width: 85%;
+    }
+
+    .buttons{
+        margin-top: 20px;
+    }
+
+    .services-cards .card{
+        width: 50%;
+        margin: auto;
+    }
+
+    .services-cards .card p{
+        width: 80%;
+        margin: auto;
+    }
+
+    .prf-cards .card{
+        width: 50%;
+        margin: auto;
+    }
+
+    .feedback-card{
+        width: 90%;
+    }
+
+    form{
+        width: 90%;
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+    .container{
+        width: 90%;
+    }
+
+    section  .profile-desc{
+        padding-left: 135px;
+    }
+
+    .feedback-card{
+        width: 80%;
+    }
+
+    form{
+        width: 85%;
+    }
+}
+
+
+@media screen and (min-width: 1281px) and (max-width: 1536px){
+    .container{
+        width: 85%;
+    }
+
+    section .img-profile{
+        padding-right: 60px;
+    }
+
+    section  .profile-desc{
+        padding-left: 80px;
+    }
+}
